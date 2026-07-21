@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Black Jack Game</title>
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Black Jack Game</h1><br>
+    <h2>Choose Number of Opponents:</h2><br>
+    <input type="radio" name="playerNum" id="p1" value="1" checked="true">
+    <label for="p1">1</label>
+    <input type="radio" name="playerNum" id="p2" value="2">
+    <label for="p2">2</label>
+    <input type="radio" name="playerNum" id="p3" value="3">
+    <label for="p3">3</label>
+    <input type="radio" name="playerNum" id="p4" value="4">
+    <label for="p4">4</label>
+    <button onclick="startGame()" id="btStartGame">Start Game</button><br><br>
+    <dev name="playerButtons" id="playerButtons">Choose to hit or pass:<br>
+        <button id="btHit" onclick="playerHit()">Hit</button>
+        <button id="btPass" onclick="playerPass()">Pass</button>
+    </dev><br><br>
+    <table name="tbDealerHand" id="tbDealerHand">
+        <tr>
+            <th name="name"></th>
+        </tr>
+        <tr>
+            <td name="hand"></td>
+        </tr>
+        <tr>
+            <th name="value"></th>
+        </tr>
+    </table><br>
+
+    <table id="tbPlayersHands">
+        <tr id="names">
+            <th name="name"></th>
+            <th name="name"></th>
+            <th name="name"></th>
+            <th name="name"></th>
+        </tr>
+        <tr>
+            <td name="hand"></td>
+            <td name="hand"></td>
+            <td name="hand"></td>
+            <td name="hand"></td>
+        </tr>
+        <tr>
+            <th name="value"></th>
+            <th name="value"></th>
+            <th name="value"></th>
+            <th name="value"></th>
+        </tr>
+    </table>
+    <h1 id="winner"></h1>
+
+</body>
+
+</html>

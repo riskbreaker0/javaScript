@@ -1,0 +1,23 @@
+button {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #000000;
+}
+div {
+    font-size: 30px;
+    font-family: Courier;
+    height: 30px;
+    width: 300px;
+    border: 2px solid #000000;
+    text-align: right;
+}
+#memory{
+    height:140px;
+    overflow: auto;
+    scroll-margin-bottom: 120px;
+}
+#equals{
+    height: 50px;
+    width: 104px;
+    border: 2px solid #000000;
+}

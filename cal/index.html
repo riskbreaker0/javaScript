@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Calculator</title>
+<script src="cal.js"></script>
+<link rel="stylesheet" href="cal.css">
+</head>
+
+<body onload=showOldDisplay()>
+
+<div id="display"></div><br>
+<button onclick=operation(8)>MC</button>
+<button onclick=operation(9)>MR</button>
+<button onclick=operation(10)>M+</button>
+<button onclick=operation(11)>M-</button>
+<button onclick=operation(12)>MS</button>
+<br>
+<button onclick=operation(-2)>CE</button>
+<button onclick=operation(-1)>C</button>
+<button onclick=operation(6)>%</button>
+<button onclick=operation(4)>/</button>
+<button onclick=operation(7)>^</button>
+<br>
+<button onclick=theNumber(7)>7</button>
+<button onclick=theNumber(8)>8</button>
+<button onclick=theNumber(9)>9</button>
+<button onclick=operation(3)>x</button>
+<button onclick=operation(13)>1/x</button>
+<br>
+<button onclick=theNumber(4)>4</button>
+<button onclick=theNumber(5)>5</button>
+<button onclick=theNumber(6)>6</button>
+<button onclick=operation(2)>-</button>
+<button onclick=operation(14)>x&#8730y</button>
+<br>
+<button onclick=theNumber(1)>1</button>
+<button onclick=theNumber(2)>2</button>
+<button onclick=theNumber(3)>3</button>
+<button onclick=operation(1)>+</button>
+<button onclick=operation(15)>10^x</button>
+<br>
+<button onclick=operation(5)>+/-</button>
+<button onclick=theNumber(0)>0</button>
+<button onclick=addDecimal()>.</button>
+<button onclick=operation(0) id="equals">=</button>
+<br>
+<div id="memory"> </div>
+
+</body>
+</html>
